@@ -32,7 +32,7 @@ Example `flake.nix`:
 
     # add LazyVim-module
     LazyVim = {
-      url = "github:matadaniel/LazyVim-module";
+      url = "github:StevenKrebs/LazyVim-module";
       inputs.nixpkgs.follows = "nixpkgs";
     };
   };
